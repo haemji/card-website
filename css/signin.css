@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import url("style.css");
+
+.signin {
+    margin-top: 10rem;
+    padding: 5rem 0 15rem;
+    background: url(../images/2024_bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.signin .heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.signin .signin_card {
+    max-width: 80rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.2);
+    color: var(--main-color);
+    margin: 0 auto;
+}
+.signin .signin_card h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+.signin .signin_card h2 span {
+    color: green;
+}
+.signin_card form {
+    padding: 3rem;
+}
+.signin_card form input {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1.4rem;
+}
+.signin_card form [type="submit"] {
+    background-color: #006633;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.signin_card form p {
+    font-size: 1.2rem;
+    color: #006633;
+}
+.signin_card .action {
+    display: flex; /* 아이템 수평 정렬 */
+    border-top: 1px solid #ddd;
+}
+.signin_card .action a {
+    flex-grow: 1; /* 아이템 증가너비 */
+    flex-basis: 0; /* 아이템 기본너비 */
+    text-align: center;
+    padding: 3rem;
+    color: #333;
+    font-size: 1.4rem;
+    border-right: 1px solid #ddd;
+}
+.signin_card .action a:last-child {
+    border-right: 0;
+}
+.signin_card .action a:hover {
+    text-decoration: underline;
+}
